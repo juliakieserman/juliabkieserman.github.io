@@ -16,6 +16,8 @@ const contentData = {
         <span class="bold-name">Julia B. Kieserman</span>, Athanasios Andreou, Chris Geeng, Tobias Lauinger, Damon McCoy
         <br>
         PETS 2025 (to appear)
+        <br>
+        <a href="https://cybersecurityfordemocracy.org/trackers-are-not-created-equal/"> Blog Post </a>
     </div>
     
     <br>

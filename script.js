@@ -9,7 +9,7 @@ const contentData = {
     <h4>Recent Publications:</h4>
 
     <div class="publication-entry">
-        <a href="https://arxiv.org/abs/2506.16891" class="paper-title">
+        <a href="https://petsymposium.org/popets/2025/popets-2025-0151.php1" class="paper-title">
             Tracker Installations Are Not Created Equal: Understanding Tracker Configuration of Form Data Collection
         </a> 
         <br>
@@ -22,8 +22,8 @@ const contentData = {
     <br>
 
     <div class="publication-entry">
-        <a href="" class="paper-title">
-            Understanding the Perils of YouTube's Privacy Settings on Ad Safety
+        <a href="https://petsymposium.org/popets/2025/popets-2025-0169.php" class="paper-title">
+            More and Scammier Ads: The Perils of YouTube's Ad Privacy Settings
         </a>
         <br>
         Cat Mai, Lexie Barthelemess, Bruno Coelho, <span class="bold-name">Julia B. Kieserman</span>, Kyle Spinelli, Eric Yang, Athanasios Andreou, Rachel Greenstadt, Tobias Lauinger, Damon McCoy

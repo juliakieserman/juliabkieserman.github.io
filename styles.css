@@ -11,14 +11,24 @@ body {
   font-family: 'Manrope';
 }
 
+#writing-page {
+  text-align: left;
+}
+
+#research-page {
+  text-align: center;
+}
+
 #content-box {
-    opacity: 78%;
-    width: 65%;
-    height: 70%;
+    opacity: 87%;
+    /*width: 65%;
+    height: 70%;*/
+    width: fit-content;
+    max-width: 65%;
+    height: auto;
     border: 2px solid #333;
     background-color: #f0f0f0;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-    text-align: center;
     position: relative;
     /*clip-path: url(#squiggly);*/
     overflow-y: auto;
@@ -26,6 +36,7 @@ body {
     border-radius: 30px;
     border-width: 30px;
     border-color: darkcyan;
+    transition: all 0.3s ease-in-out;
 }
 
 #details-block {
@@ -50,6 +61,41 @@ body {
     text-decoration-thickness: 2px;
 }
 
+a {
+  text-decoration: none;
+  color: chocolate
+}
+
+li {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0;
+    /*border-bottom: 1px solid #ccc;*/
+}
+
+.date {
+    flex: 0 0 80px; /* fixed width for date */
+    font-weight: bold;
+    color: #555;
+  }
+
+.content {
+      flex: 1;
+    }
+
+.url {
+  /*font-size: 1rem;*/
+  color: teal;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.subtext {
+  font-size: 0.875rem;
+  color: #666;
+  font-style: italic;
+}
+
 .navigation {
     position: absolute;
     top: 10px;
@@ -57,6 +103,12 @@ body {
     transform: translateX(-50%);
     text-emphasis: wavy;
 }
+
+.right {
+      flex: 0 0 auto;
+      color: #333;
+      font-size: 0.9rem;
+    }
 
 @media (max-width: 768px) {
     .navigation {
@@ -68,7 +120,7 @@ body {
 .navigation button {
   background: none;
   border: none;
-  color: white;
+  color: black;
   font-size: 16px;
   cursor: pointer;
   padding: 6px 10px;
@@ -79,7 +131,7 @@ body {
 .navigation button.active {
   color: darkred; 
   text-decoration-line: underline;
-  text-decoration-style: wavy;
+  text-decoration-style: double;
   font-weight: bold;
 }
 
@@ -106,4 +158,10 @@ ul {
   padding-left: 1.2em; /* or adjust as needed */
   margin-left: 0;      /* optional: reset if default margin is too big */
   list-style-position: inside; /* optional: puts bullet closer to text */
+}
+
+.pending {
+    font-weight: normal;
+    font-style: italic;
+    font-size: small;
 }
